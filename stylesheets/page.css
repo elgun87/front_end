@@ -1,0 +1,147 @@
+/* line 1, ../sass/page.scss */
+.header_nav {
+  background-image: url("/image/meeting.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border: 1px solid black;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+/* line 11, ../sass/page.scss */
+.header_nav::after {
+  content: " ";
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 5;
+}
+/* line 20, ../sass/page.scss */
+.header_nav div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 0;
+  height: 70px;
+  align-self: start;
+  position: relative;
+  color: white;
+  z-index: 6;
+}
+
+/* line 36, ../sass/page.scss */
+.header_left ul {
+  display: flex;
+  list-style: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 41, ../sass/page.scss */
+.header_left ul li {
+  margin: 0 5px;
+}
+
+/* line 48, ../sass/page.scss */
+.header_mid {
+  display: flex;
+  flex-grow: 1;
+}
+
+/* line 54, ../sass/page.scss */
+.header_right button {
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 8px 15px;
+  font-size: 12px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+/* line 63, ../sass/page.scss */
+.header_right button:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+/*This is header_content*/
+/* line 76, ../sass/page.scss */
+.header_content {
+  min-height: calc(100% - 70px) !important;
+  width: 100%;
+}
+/* line 79, ../sass/page.scss */
+.header_content .header_content_main {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+/* line 84, ../sass/page.scss */
+.header_content .header_content_main button {
+  border-radius: 30px;
+  outline: none;
+  background: lightgreen;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* This is Main part */
+/* line 97, ../sass/page.scss */
+.main_content {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  height: 800px;
+  width: 100%;
+  background: whitesmoke;
+}
+/* line 105, ../sass/page.scss */
+.main_content .main_body {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* line 112, ../sass/page.scss */
+.main_content .main_body button {
+  border-radius: 30px;
+  outline: none;
+  background: lightgreen;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+/* line 121, ../sass/page.scss */
+.main_content .main_body .main_section_1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+/* line 126, ../sass/page.scss */
+.main_content .main_body .main_section_1 p:first-child {
+  color: green;
+  font-weight: bold;
+}
+/* line 133, ../sass/page.scss */
+.main_content .main_logo {
+  background-image: url("/image/bussines.jpg");
+  background-repeat: none;
+  background-position: center;
+  background-attachment: unset;
+  height: 300px;
+  width: 100%;
+}
+
+/* line 146, ../sass/page.scss */
+.main_middle {
+  display: flex;
+  text-align: center;
+}
