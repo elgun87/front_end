@@ -96,22 +96,21 @@
 /* line 97, ../sass/page.scss */
 .main_content {
   display: flex;
-  justify-content: center;
-  border: 1px solid black;
-  height: 800px;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   background: whitesmoke;
 }
-/* line 105, ../sass/page.scss */
-.main_content .main_body {
+/* line 104, ../sass/page.scss */
+.main_content .main_section_1 {
   width: 30%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
-/* line 112, ../sass/page.scss */
-.main_content .main_body button {
+/* line 111, ../sass/page.scss */
+.main_content .main_section_1 button {
   border-radius: 30px;
   outline: none;
   background: lightgreen;
@@ -119,29 +118,101 @@
   padding: 10px;
   font-size: 20px;
 }
-/* line 121, ../sass/page.scss */
-.main_content .main_body .main_section_1 {
+/* line 120, ../sass/page.scss */
+.main_content .main_section_1 .main_section_1 {
   text-align: center;
   display: flex;
   flex-direction: column;
+  margin: 50px;
 }
-/* line 126, ../sass/page.scss */
-.main_content .main_body .main_section_1 p:first-child {
+/* line 127, ../sass/page.scss */
+.main_content .main_section_1 .main_section_1 p:first-child {
   color: green;
   font-weight: bold;
 }
-/* line 133, ../sass/page.scss */
-.main_content .main_logo {
-  background-image: url("/image/bussines.jpg");
-  background-repeat: none;
-  background-position: center;
-  background-attachment: unset;
-  height: 300px;
-  width: 100%;
-}
 
-/* line 146, ../sass/page.scss */
+/* line 138, ../sass/page.scss */
 .main_middle {
   display: flex;
   text-align: center;
+}
+
+/* line 143, ../sass/page.scss */
+.main_section_2 {
+  position: relative;
+  width: 600px;
+  background: white;
+  padding: 60px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+/* line 150, ../sass/page.scss */
+.main_section_2 img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 250px;
+  top: -40px;
+}
+
+/*-----------------------------------------------------------Article--------------------------------------------------------------*/
+/* line 167, ../sass/page.scss */
+.article_container {
+  background: green;
+}
+/* line 171, ../sass/page.scss */
+.article_container .article_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+}
+/* line 179, ../sass/page.scss */
+.article_container .article_section .article_text {
+  margin-top: 30px;
+}
+/* line 188, ../sass/page.scss */
+.article_container .article_boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 193, ../sass/page.scss */
+.article_container .article_boxes .box {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  background: white;
+  color: black;
+  position: relative;
+}
+/* line 201, ../sass/page.scss */
+.article_container .article_boxes .box img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  left: 60px;
+  top: -30px;
+  border: 1px solid black;
+  position: absolute;
+  background: white;
+}
+/* line 211, ../sass/page.scss */
+.article_container .article_boxes .box .box_text {
+  padding: 50px;
+}
+
+/* line 222, ../sass/page.scss */
+.article_boxes_1 {
+  display: flex;
+  margin-top: 15px;
+}
+
+/* line 227, ../sass/page.scss */
+.article_boxes_2 {
+  display: flex;
+  margin-top: 20px;
 }
