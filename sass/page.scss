@@ -232,8 +232,6 @@ flex-grow: 1;
 
 .footer_container{
   height: 600px;
-  border: 1px solid black;
-  margin-bottom: 50px;
   background: url("/image/pic.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -249,7 +247,7 @@ flex-grow: 1;
     background-color: black;
     opacity: 0.3;
     position: absolute;
-    z-index: 5;
+    z-index: 2;
   }
 
   
@@ -258,6 +256,8 @@ flex-grow: 1;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    position: relative;
+    z-index: 6;
 
     .footer_input{
       display: flex;
