@@ -4,13 +4,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  border: 1px solid black;
   height: 700px;
   display: flex;
   flex-direction: column;
   position: relative;
 }
-/* line 11, ../sass/page.scss */
+/* line 10, ../sass/page.scss */
 .header_nav::after {
   content: " ";
   height: 100%;
@@ -20,7 +19,7 @@
   position: absolute;
   z-index: 5;
 }
-/* line 20, ../sass/page.scss */
+/* line 19, ../sass/page.scss */
 .header_nav div {
   width: 100%;
   display: flex;
@@ -34,25 +33,25 @@
   z-index: 6;
 }
 
-/* line 36, ../sass/page.scss */
+/* line 35, ../sass/page.scss */
 .header_left ul {
   display: flex;
   list-style: none;
   font-size: 12px;
   font-weight: bold;
 }
-/* line 41, ../sass/page.scss */
+/* line 40, ../sass/page.scss */
 .header_left ul li {
   margin: 0 5px;
 }
 
-/* line 48, ../sass/page.scss */
+/* line 47, ../sass/page.scss */
 .header_mid {
   display: flex;
   flex-grow: 1;
 }
 
-/* line 54, ../sass/page.scss */
+/* line 53, ../sass/page.scss */
 .header_right button {
   border-radius: 20px;
   background: transparent;
@@ -63,7 +62,7 @@
   transition: all 0.3s ease;
   outline: none;
 }
-/* line 63, ../sass/page.scss */
+/* line 62, ../sass/page.scss */
 .header_right button:hover {
   background: white;
   color: black;
@@ -71,18 +70,18 @@
 }
 
 /*This is header_content*/
-/* line 76, ../sass/page.scss */
+/* line 75, ../sass/page.scss */
 .header_content {
   min-height: calc(100% - 70px) !important;
   width: 100%;
 }
-/* line 79, ../sass/page.scss */
+/* line 78, ../sass/page.scss */
 .header_content .header_content_main {
   display: flex;
   flex-direction: column;
   align-self: center;
 }
-/* line 84, ../sass/page.scss */
+/* line 83, ../sass/page.scss */
 .header_content .header_content_main button {
   border-radius: 30px;
   outline: none;
@@ -93,7 +92,7 @@
 }
 
 /* This is Main part */
-/* line 97, ../sass/page.scss */
+/* line 96, ../sass/page.scss */
 .main_content {
   display: flex;
   flex-direction: column;
@@ -101,7 +100,7 @@
   width: 100%;
   background: whitesmoke;
 }
-/* line 104, ../sass/page.scss */
+/* line 103, ../sass/page.scss */
 .main_content .main_section_1 {
   width: 30%;
   display: flex;
@@ -109,7 +108,7 @@
   align-items: center;
   margin-top: 20px;
 }
-/* line 111, ../sass/page.scss */
+/* line 110, ../sass/page.scss */
 .main_content .main_section_1 button {
   border-radius: 30px;
   outline: none;
@@ -118,26 +117,26 @@
   padding: 10px;
   font-size: 20px;
 }
-/* line 120, ../sass/page.scss */
+/* line 119, ../sass/page.scss */
 .main_content .main_section_1 .main_section_1 {
   text-align: center;
   display: flex;
   flex-direction: column;
   margin: 50px;
 }
-/* line 127, ../sass/page.scss */
+/* line 126, ../sass/page.scss */
 .main_content .main_section_1 .main_section_1 p:first-child {
   color: green;
   font-weight: bold;
 }
 
-/* line 138, ../sass/page.scss */
+/* line 137, ../sass/page.scss */
 .main_middle {
   display: flex;
   text-align: center;
 }
 
-/* line 143, ../sass/page.scss */
+/* line 142, ../sass/page.scss */
 .main_section_2 {
   position: relative;
   width: 600px;
@@ -146,7 +145,7 @@
   margin-top: 80px;
   margin-bottom: 40px;
 }
-/* line 150, ../sass/page.scss */
+/* line 149, ../sass/page.scss */
 .main_section_2 img {
   position: absolute;
   width: 100px;
@@ -157,11 +156,11 @@
 }
 
 /*-----------------------------------------------------------Article--------------------------------------------------------------*/
-/* line 167, ../sass/page.scss */
+/* line 166, ../sass/page.scss */
 .article_container {
   background: green;
 }
-/* line 171, ../sass/page.scss */
+/* line 170, ../sass/page.scss */
 .article_container .article_section {
   display: flex;
   flex-direction: column;
@@ -170,17 +169,17 @@
   color: white;
   text-align: center;
 }
-/* line 179, ../sass/page.scss */
+/* line 178, ../sass/page.scss */
 .article_container .article_section .article_text {
   margin-top: 30px;
 }
-/* line 188, ../sass/page.scss */
+/* line 187, ../sass/page.scss */
 .article_container .article_boxes {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-/* line 193, ../sass/page.scss */
+/* line 192, ../sass/page.scss */
 .article_container .article_boxes .box {
   height: 300px;
   width: 300px;
@@ -189,7 +188,7 @@
   color: black;
   position: relative;
 }
-/* line 201, ../sass/page.scss */
+/* line 200, ../sass/page.scss */
 .article_container .article_boxes .box img {
   height: 75px;
   width: 75px;
@@ -200,19 +199,62 @@
   position: absolute;
   background: white;
 }
-/* line 211, ../sass/page.scss */
+/* line 210, ../sass/page.scss */
 .article_container .article_boxes .box .box_text {
   padding: 50px;
 }
 
-/* line 222, ../sass/page.scss */
+/* line 221, ../sass/page.scss */
 .article_boxes_1 {
   display: flex;
   margin-top: 15px;
 }
 
-/* line 227, ../sass/page.scss */
+/* line 226, ../sass/page.scss */
 .article_boxes_2 {
   display: flex;
   margin-top: 20px;
+}
+
+/*-----------------------------FOOTER----------------------------------------------------------------------------------------------*/
+/* line 233, ../sass/page.scss */
+.footer_container {
+  height: 600px;
+  border: 1px solid black;
+  margin-bottom: 50px;
+  background: url("/image/pic.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+/* line 245, ../sass/page.scss */
+.footer_container::after {
+  content: " ";
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+  position: absolute;
+  z-index: 5;
+}
+/* line 256, ../sass/page.scss */
+.footer_container .footer_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+/* line 262, ../sass/page.scss */
+.footer_container .footer_content .footer_input {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+/* line 267, ../sass/page.scss */
+.footer_container .footer_content .footer_input .footer_element {
+  margin: 10px 0 10px 0;
 }
